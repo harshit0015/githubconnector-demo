@@ -5,24 +5,6 @@
       "properties": {
         "name": "fapp1"
       }
-    },
-    {
-      "resourceType": "eventhub",
-      "properties": {
-        "name": "sa1"
-      }
-    },
-    {
-      "resourceType": "eventgrid-topic",
-      "properties": {
-        "name": "egt1"
-      }
-    },
-    {
-      "resourceType": "storage-account",
-      "properties": {
-        "name": "eh1"
-      }
     }
   ]
 }
