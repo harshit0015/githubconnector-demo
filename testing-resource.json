@@ -10,7 +10,6 @@
         }
     ],
     "resources": [
-        // storage account
         {
             "name": "storage-account",
             "properties": {
@@ -19,7 +18,6 @@
                 "resourceGroupName": "",
                 "accountTier": "",
                 "accountRepliationType": "",
-                // "skuName":"",
                 "minTlsVersion": "",
                 "enableHttpsTrafficOnly": "true",
                 "blobProperties": {
@@ -35,7 +33,6 @@
                 "tags": {}
             }
         },
-        //storage container
         {
             "name": "blob-container",
             "properties": {
@@ -44,7 +41,6 @@
                 "container_access_type": "private"
             }
         },
-        //App Service Plan
         {
             "name": "app-service-plan",
             "properties": {
@@ -57,7 +53,6 @@
                 "tags": {}
             }
         },
-        // Function App (async-req-handler)
         {
             "name": "async-req-handler",
             "properties": {
@@ -87,7 +82,6 @@
                 }
             ]
         },
-        // Function App (sync-async-notification-handler)
         {
             "name": "sync-async-notification-handler",
             "properties": {
@@ -117,7 +111,6 @@
                 }
             ]
         },
-        // Function App (email)
         {
             "name": "email",
             "properties": {
@@ -147,7 +140,6 @@
                 }
             ]
         },
-        // Function App (in-app)
         {
             "name": "in-app",
             "properties": {
@@ -177,7 +169,6 @@
                 }
             ]
         },
-        // Event Hub Namespace
         {
             "name": "eventhub-namspace",
             "properties": {
@@ -206,7 +197,6 @@
                 }
             ]
         },
-        // event grid topic
         {
             "name": "event-grid-topic",
             "properties": {
