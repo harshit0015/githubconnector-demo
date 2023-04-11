@@ -180,7 +180,6 @@
                 "tags": {}
             }
         },
-        // Event Hub
         {
             "name": "event-hub",
             "properties": {
