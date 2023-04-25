@@ -15,6 +15,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "storage-account",
+                "dependsOn": "false",
                 "resourceGroupName": "",
                 "accountTier": "",
                 "accountRepliationType": "",
@@ -46,6 +47,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "app-service-plan",
+                "dependsOn": "false",
                 "resourceGroupName": "",
                 "osType": "",
                 "skuName": "",
@@ -58,6 +60,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "function-app",
+                "dependsOn": "true",
                 "resourceGroupName": "",
                 "storageAccountName": "",
                 "appServicePlan": "",
@@ -87,6 +90,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "function-app",
+                "dependsOn": "true",
                 "resourceGroupName": "",
                 "storageAccountName": "",
                 "appServicePlan": "",
@@ -116,6 +120,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "function-app",
+                "dependsOn": "true",
                 "resourceGroupName": "",
                 "storageAccountName": "",
                 "appServicePlan": "",
@@ -145,6 +150,7 @@
             "properties": {
                 "cloud": "Azure",
                 "resourceType": "function-app",
+                "dependsOn": "true",
                 "resourceGroupName": "",
                 "storageAccountName": "",
                 "appServicePlan": "",
@@ -173,7 +179,8 @@
             "name": "eventhub-namspace",
             "properties": {
                 "name": "",
-                "resourceType": "eventhub-namespace",
+                "resourceType": "event-hub",
+                "dependsOn": "false",
                 "resourceGroupName": "",
                 "sku": "",
                 "capacity": "",
@@ -186,6 +193,7 @@
                 "name": "",
                 "namespaceName": "",
                 "resourceType": "event-hub",
+                "dependsOn": "true",
                 "resourceGroupName": "",
                 "messageRetention": "",
                 "partitionCount": ""
@@ -200,6 +208,7 @@
             "name": "event-grid-topic",
             "properties": {
                 "resourceType": "event-grid-topic",
+                "dependsOn": "false",
                 "resourceGroup": "",
                 "identity": {
                     "type": "",
