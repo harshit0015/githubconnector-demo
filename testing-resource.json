@@ -176,33 +176,27 @@
             ]
         },
         {
-            "name": "eventhub-namspace",
-            "properties": {
-                "name": "",
-                "resourceType": "event-hub",
-                "dependsOn": "false",
-                "resourceGroupName": "",
-                "sku": "",
-                "capacity": "",
-                "tags": {}
-            }
-        },
-        {
             "name": "event-hub",
             "properties": {
                 "name": "",
                 "namespaceName": "",
                 "resourceType": "event-hub",
-                "dependsOn": "true",
+                "dependsOn": "false",
                 "resourceGroupName": "",
                 "messageRetention": "",
                 "partitionCount": ""
-            },
-            "dependencies": [
-                {
-                    "resourceType": "eventhub-namespace"
-                }
-            ]
+            }
+                    },
+        {
+            "name": "eventhub-namspace",
+            "properties": {
+                "name": "",
+                "resourceType": "event-hub",
+                "resourceGroupName": "",
+                "sku": "",
+                "capacity": "",
+                "tags": {}
+            }
         },
         {
             "name": "event-grid-topic",
