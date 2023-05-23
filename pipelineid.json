@@ -2,7 +2,7 @@
   "resources": [
    {
      "resourceType": "storage-account",
-     "pipelineID": "19",
+     "pipelineID": "7",
    },
    {
      "resourceType": "app-service-plan",
@@ -10,11 +10,11 @@
    },
    {
      "resourceType": "event-hub",
-     "pipelineID": "18",
+     "pipelineID": "4",
    },
    {
      "resourceType": "event-grid-topic",
-     "pipelineID": "17",
+     "pipelineID": "6",
    },
    {
      "resourceType": "function-app",
