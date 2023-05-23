@@ -1,0 +1,24 @@
+{
+  "resources": [
+   {
+     "resourceType": "storage-account",
+     "pipelineID": "19",
+   },
+   {
+     "resourceType": "app-service-plan",
+     "pipelineID": "16",
+   },
+   {
+     "resourceType": "event-hub",
+     "pipelineID": "18",
+   },
+   {
+     "resourceType": "event-grid-topic",
+     "pipelineID": "17",
+   },
+   {
+     "resourceType": "function-app",
+     "pipelineID": "5",
+   }
+   ]
+}
