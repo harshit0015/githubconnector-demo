@@ -10,7 +10,7 @@
    },
    {
      "resourceType": "event-hub",
-     "pipelineID": "4",
+     "pipelineID": "24",
    },
    {
      "resourceType": "event-grid-topic",
