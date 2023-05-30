@@ -1,14 +1,4 @@
 {
-    "version": [
-        {
-            "versionNumber": "1.0.2",
-            "releaseDate": ""
-        },
-        {
-            "versionNumber": "1.0.1",
-            "releaseDate": ""
-        }
-    ],
     "resources": [
         {
             "name": "storage-account",
